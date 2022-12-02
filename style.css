@@ -1,0 +1,83 @@
+header {
+  display: flex;
+  justify-content: center;
+  font-size: xx-large;
+}
+/* .userInputs {
+  display: flex;
+  justify-content: center;
+  border: 2px solid black;
+  align-content: center;
+  align-items: center;
+} */
+.userInput {
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  font-size: xx-large;
+}
+button {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  border-radius: 1em;
+}
+
+button:hover {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(50, 165, 247);
+  color: white;
+  border-radius: 1em;
+  cursor: pointer;
+}
+
+.BMRbutton {
+  display: flex;
+  justify-content: center;
+}
+
+.goalButtons {
+  display: flex;
+  justify-content: center;
+}
+.losebtn {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+}
+
+.maintainbtn {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+}
+
+.gainbtn {
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+}
+h3 {
+  display: flex;
+  justify-content: center;
+  font-size: xx-large;
+}
+
+html {
+  scroll-behavior: none;
+  height: 100vh;
+  width: 100vw;
+  font-family: "Sono", sans-serif;
+}
+
+.userInputBox{
+  display: flex;
+
+  justify-content: center;
+}
